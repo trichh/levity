@@ -1,0 +1,20 @@
+.filter, .selectedFilter {
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+.filter p {
+  background-color: #D0EBF2;
+  border-radius: 25px;
+  color: #0272C2;
+  cursor: pointer;
+  margin: 0 0 1.5rem 0;
+  padding: .5rem 1rem;
+}
+.selectedFilter p {
+  border: solid 1px #D0EBF2;
+  border-radius: 25px;
+  color: #0272C2;
+  cursor: pointer;
+  margin: 0 0 1.5rem 0;
+  padding: .5rem 1rem;
+}

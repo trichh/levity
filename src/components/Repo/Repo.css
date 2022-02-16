@@ -1,0 +1,29 @@
+.repo {
+  padding: 1rem 2rem;
+}
+.repo:nth-child(odd) {
+  background-color: white;
+}
+.repo:nth-child(even) {
+  background-color: #F0F0F0;
+}
+.repo h1 {
+  margin: 0;
+}
+.repo a {
+  color: #0272C2;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.repo span {
+  margin-left: .5rem;
+}
+.loadMore {
+  color: #0272C2;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.loadMore p {
+  cursor: pointer;
+  display: inline-block;
+}
