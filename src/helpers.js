@@ -7,7 +7,7 @@ export const searchRepos = (keyword) => {
       repos.forEach((repo)=> { repo.active = true });
       return repos;
     })
-    .catch(error => alert(error));
+    .catch(error => { return []; });
 };
 // Sets the active repositories
 export const getActiveRepos = (repos) => {
